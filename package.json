@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass scss/main.scss public/css/style.css -w",
-    "compile:sass": "sass scss/main.scss public/css/style.compile.css",
+    "watch:sass": "sass sass/main.scss public/css/style.css -w",
+    "compile:sass": "sass sass/main.scss public/css/style.compile.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 version' public/css/style.compile.css -o public/css/style.prefix.css ",
     "compress:css": "sass public/css/style.prefix.css public/css/style.css --style=compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
