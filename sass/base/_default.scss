@@ -1,0 +1,34 @@
+* {
+  direction: rtl;
+}
+html {
+  font-size: 62.5%;
+
+  @include Responsive(tabletLand) {
+    font-size: 58.5% !important;
+  }
+
+  @include Responsive(tablet) {
+    font-size: 56.25% !important;
+  }
+
+  @include Responsive(phoneLand) {
+    font-size: 50% !important;
+  }
+
+  @include Responsive(phone) {
+    font-size: 43.75% !important;
+  }
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+:root {
+  --bs-body-bg: #fff;
+}
+body {
+  font-family: IranSansWeb, "sans-serif" !important;
+  --bs-body-color: #101010;
+}

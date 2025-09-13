@@ -1,0 +1,14 @@
+.brand {
+  &__img {
+    max-width: 8rem;
+  }
+  &__icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    border: 1px solid $subtitle;
+    background-color: $gray;
+    font-size: $fs-2;
+    cursor: pointer;
+  }
+}

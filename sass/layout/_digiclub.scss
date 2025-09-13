@@ -1,0 +1,28 @@
+.digiclub {
+  &__border {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+  }
+  &__content {
+    @include Responsive(tablet) {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    &-item {
+      @include Responsive(phoneLand) {
+        flex-wrap: wrap;
+      }
+    }
+    &-items {
+      @include Responsive(phoneLand) {
+        min-width: 35rem;
+      }
+    }
+    &-text {
+      @include Responsive(phone) {
+        font-weight: bold;
+      }
+    }
+  }
+}

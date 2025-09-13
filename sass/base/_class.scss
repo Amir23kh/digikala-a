@@ -1,0 +1,61 @@
+//! custom witdh
+
+.container2xl {
+  width: 80vw;
+  margin: 0 auto;
+  @include Responsive(tablet) {
+    width: 98vw;
+  }
+}
+
+//! Flex Class
+.flex-center {
+  @include centerizeTag();
+}
+.flex-between {
+  @include centerizeTag($justify: space-between);
+}
+.flex-around {
+  @include centerizeTag($justify: space-around);
+}
+.flex-evenly {
+  @include centerizeTag($justify: space-evenly);
+}
+//! Position Class
+
+.positioncenter {
+  @include postionCenter();
+}
+
+//! Font-Size Class
+
+.fs-1 {
+  font-size: $fs-1;
+}
+.fs-2 {
+  font-size: $fs-2;
+}
+.fs-3 {
+  font-size: $fs-3;
+}
+.fs-4 {
+  font-size: $fs-4;
+}
+.fs-5 {
+  font-size: $fs-5;
+}
+.fs-6 {
+  font-size: $fs-6;
+}
+.text-justify {
+  text-align: justify;
+}
+.ellipsis-1 {
+  @include lineBreak(1);
+}
+.ellipsis-2 {
+  @include lineBreak();
+}
+.ellipsis-3 {
+  @include lineBreak(3);
+}

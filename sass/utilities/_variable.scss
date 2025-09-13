@@ -1,0 +1,33 @@
+//!--------------- override Colors----------//
+
+$primary: #941b80;
+$secondary: #19bed1;
+$tertiary: #ef394e;
+$gray: #cfcfcf;
+$subtitle: #818489;
+$search: #eaeaec;
+$green: #3bae03;
+$bg-app: #3c4b6d;
+
+//!--------------- Color MAPS---------------//
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "subtitle": $subtitle,
+  "search": $search,
+  "gray": $gray,
+  "green": $green,
+  "bg-app": $bg-app,
+);
+
+//!--------------- fontSize Variables---------------//
+
+$fs-1: 2.5rem !important;
+$fs-2: 2rem !important;
+$fs-3: 1.5rem !important;
+$fs-4: 1.25rem !important;
+$fs-5: 1rem !important;
+$fs-6: 0.5rem !important;
+// !font

@@ -1,0 +1,19 @@
+.header {
+  box-shadow: 0.1rem 0 1.2rem rgba(0, 0, 0, 0.3);
+  &__search {
+    width: 60rem;
+    @include Responsive(tablet) {
+      width: 98vw;
+    }
+  }
+  &__banner {
+    @include Responsive(phone) {
+      min-height: 40px;
+      object-fit: cover;
+    }
+  }
+  &__line {
+    width: 0.1rem;
+    height: 3rem;
+  }
+}

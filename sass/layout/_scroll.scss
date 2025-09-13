@@ -1,0 +1,34 @@
+.scroll {
+  &__content {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+  }
+  &__item {
+    width: 18rem !important;
+    height: 27rem;
+    cursor: grab;
+  }
+  &__percent {
+    width: 3.5rem;
+    height: 2.5rem;
+  }
+  &__progress {
+    height: 0.5rem;
+    direction: ltr;
+  }
+  &__circle {
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid $secondary;
+    border-radius: 100%;
+    font-size: $fs-2;
+    color: $secondary;
+    transition: all 200ms ease-in;
+    &:hover {
+      background-color: $secondary;
+      color: $search;
+      cursor: pointer;
+    }
+  }
+}

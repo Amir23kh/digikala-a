@@ -1,0 +1,26 @@
+.offer {
+  &__content {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+
+    &-col {
+      @include Responsive(tablet) {
+        width: 100% !important;
+      }
+    }
+  }
+  &__item {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  &__percent {
+    width: 3.5rem;
+    height: 2.5rem;
+    background-color: $tertiary;
+    bottom: 0;
+    right: 9px;
+  }
+}

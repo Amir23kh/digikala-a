@@ -1,0 +1,9 @@
+.category {
+  &__item {
+    min-width: 16rem;
+    &-img {
+      max-width: 11rem;
+      height: auto;
+    }
+  }
+}
